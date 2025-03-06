@@ -1,50 +1,39 @@
-# Welcome to your Expo app 👋
+## UNIR Cinema - Aplicación de ejemplo de React Native con Expo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este es un proyecto de Expo creado con [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+Puedes probar la aplicación en tu dispositivo escaneando el siguiente código QR (siempre que tengas la aplicación Expo Go instalada en tu dispositivo):
 
-1. Install dependencies
+![QR Code](Unir%20Cinema%20QR.png)
+
+### Características
+
+- **Expo Router**: Implementa enrutamiento basado en archivos para una navegación fácil.
+- **Expo SMS**: Permite enviar mensajes SMS desde la aplicación.
+- **Expo Contacts**: Proporciona acceso a los contactos del dispositivo.
+- **Expo Calendar**: Se integra con el calendario del dispositivo para crear y gestionar eventos.
+- **Patrones de Navegación**:
+   - **Stack Navigation**: Para navegación jerárquica.
+   - **Tab Navigation**: Para navegación con pestañas en la parte inferior.
+   - **Drawer Navigation**: Para navegación con un menú lateral.
+   - 
+### Cómo empezar
+
+1. Instala las dependencias
 
    ```bash
    npm install
    ```
 
-2. Start the app
+2. Inicia el servidor de desarrollo
 
    ```bash
     npx expo start
+    npm start
    ```
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+3. Abre tu aplicación en un emulador o en tu dispositivo
 - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- [Expo Go](https://expo.dev/go), una aplicación para iOS y Android que te permite abrir tu proyecto en tu dispositivo.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
